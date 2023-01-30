@@ -13,3 +13,12 @@ for counter1 in range(1, row + 1, 1):
     for counter2 in range(1, counter1 + 1):
         print(counter2, end=' ')
     print("")
+
+#Exercise 3: Calculate the sum of all numbers from 1 to a given number
+#just a simple bit of math between the loop and range
+s = 0
+n = int(input("Enter a number to be added all the way from 1: "))
+for i in range(1, n + 1, 1):
+    s += i
+print("\n")
+print("Sum is:", s)
