@@ -23,3 +23,10 @@ for counter1 in range(1, row + 1, 1):
 # print("\n")
 # print("Sum is:", s)
 #Commented out for expediency
+
+#Exercise 4: Write a program to print multiplication table of a given number
+#They actually meant the first 10, so good thing I read ahead
+n = 2
+for i in range(1, 11, 1):
+    product = n * i
+    print(product)
