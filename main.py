@@ -1,6 +1,7 @@
 #Python if else, for loop, and range() Exercises with Solutions
 #Execise 1: Print first 10 natural numbers using while loop
 #Extremely simple. A good warmup.
+print("Exercise 1!")
 counter = 1
 while counter <=10:
     print(counter)
@@ -8,6 +9,7 @@ while counter <=10:
 
 #Exercise 2: Print the following pattern
 #They then provide a picture. It shouldn't be too hard.
+print("Exercise 2!")
 row = 5
 for counter1 in range(1, row + 1, 1):
     for counter2 in range(1, counter1 + 1):
@@ -16,6 +18,7 @@ for counter1 in range(1, row + 1, 1):
 
 # #Exercise 3: Calculate the sum of all numbers from 1 to a given number
 # #just a simple bit of math between the loop and range
+# print("Exercise 3!")
 # s = 0
 # n = int(input("Enter a number to be added all the way from 1: "))
 # for i in range(1, n + 1, 1):
@@ -26,6 +29,7 @@ for counter1 in range(1, row + 1, 1):
 
 #Exercise 4: Write a program to print multiplication table of a given number
 #They actually meant the first 10, so good thing I read ahead
+print("Exercise 4!")
 n = 2
 for i in range(1, 11, 1):
     product = n * i
@@ -38,6 +42,7 @@ for i in range(1, 11, 1):
     If the number is greater than 500, then stop the loop
     numbers = [12, 75, 150, 180, 145, 525, 50]
 '''
+print("Exercise 5!")
 numbers = [12, 75, 150, 180, 145, 525, 50]
 for item in numbers:
     if item > 500:
