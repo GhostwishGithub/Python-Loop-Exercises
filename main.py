@@ -69,8 +69,12 @@ for x in range(0,n+1):
         print(y,end=' ')
     print()
 
-#Exercise 8:
+#Exercise 8: Print list in reverse order using a loop
 list1 = [10, 20, 30, 40, 50]
 new_list = reversed(list1)
 for item in new_list:
     print(item)
+
+#Exercise 9: Display numbers from -10 to -1 using for loop
+for num in range(-10, 0, 1):
+    print(num)
