@@ -59,3 +59,12 @@ while numberToCount != 0:
     numberToCount = numberToCount // 10
     count = count + 1
 print("Total digits are:", count)
+
+#Exercise 7: Print the following pattern.
+#Just a simple counter.
+n = 5
+k = 5
+for x in range(0,n+1):
+    for y in range(k-x,0,-1):
+        print(y,end=' ')
+    print()
