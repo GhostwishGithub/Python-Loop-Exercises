@@ -68,3 +68,9 @@ for x in range(0,n+1):
     for y in range(k-x,0,-1):
         print(y,end=' ')
     print()
+
+#Exercise 8:
+list1 = [10, 20, 30, 40, 50]
+new_list = reversed(list1)
+for item in new_list:
+    print(item)
