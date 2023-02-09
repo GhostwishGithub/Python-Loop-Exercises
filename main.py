@@ -51,3 +51,11 @@ for item in numbers:
         continue
     elif item % 5 == 0:
         print(item)
+
+#Exercise 6: Count the total number of digits in a number
+numberToCount = 75869
+count = 0
+while numberToCount != 0:
+    numberToCount = numberToCount // 10
+    count = count + 1
+print("Total digits are:", count)
